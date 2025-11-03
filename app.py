@@ -5,7 +5,6 @@ import tempfile
 import pandas as pd
 import numpy as np
 # Ensure python-docx is installed for Streamlit app execution
-!pip install python-docx
 !pip install streamlit
 from docx import Document
 from sklearn.feature_extraction.text import TfidfVectorizer
